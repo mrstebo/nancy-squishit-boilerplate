@@ -11,6 +11,7 @@ namespace MyNancyApp
         public void Configuration(IAppBuilder app)
         {
             ConfigureNancy(app);
+            ConfigureSquishIt(app);
         }
     }
 }
